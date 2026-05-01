@@ -42,6 +42,7 @@ app/
 ├── main.py         # FastAPI backend
 └── gradio_ui.py    # Gradio UI
 
+Data/the-calorie-chart-of-indian-food.pdf
 Dockerfile.api
 Dockerfile.ui
 docker-compose.yml
