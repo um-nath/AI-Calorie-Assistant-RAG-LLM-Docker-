@@ -150,3 +150,4 @@ Feel free to connect or contribute!
 
 ## Author 
  Ujjwal Manikya Nath
+ * Data Science | Machine Learning | Computer Vision
