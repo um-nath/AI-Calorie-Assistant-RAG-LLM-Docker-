@@ -1,0 +1,22 @@
+services:
+  api:
+    image: 619303097852.dkr.ecr.ap-south-1.amazonaws.com/ia-assistant-calorie-counting-api:latest
+    container_name: fastapi_api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: always
+
+  ui:
+    image: 619303097852.dkr.ecr.ap-south-1.amazonaws.com/ia-assistant-calorie-counting-ui:latest
+    container_name: gradio_ui
+    ports:
+      - "80:7860"
+    env_file:
+      - .env
+    depends_on:
+      - api
+    environment:
+      - API_URL=http://api:8000/ask
+    restart: always
