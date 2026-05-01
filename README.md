@@ -109,7 +109,7 @@ sudo apt install docker.io docker-compose -y
 ### 3. Clone Repo
 
 ```bash
-git clone https://github.com/um-nath//ai-calorie-assistant.git
+git clone https://github.com/um-nath/AI-Calorie-Assistant-RAG-LLM-Docker-.git
 cd ai-calorie-assistant
 ```
 
