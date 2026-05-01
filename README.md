@@ -132,7 +132,7 @@ http://YOUR_PUBLIC_IP:7860
 
 ---
 
-## 🧠 Learnings
+## Learnings
 
 * RAG pipeline design
 * Vector database usage (Pinecone)
